@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRkrKysrLSsrKysrKysrKysrLSsrKysrKysrKysrKysrKysrKysrKystKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIFB//EAC8QAQEBAAEBBAQPAAAAAAAAAAABEQMCBiFU0gQTFBYFByQxQUNEUXGBkZOUsdH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APF0koikCSIIggikCKQIogEUCRxYARQBHEDKKABoAAUABQAEAEQCBQBRKAkiCSQFIwEQQRBBFEEkQSKBIrACOLACKwGUUDKKBlEAAUABQMogAkgCKgJJAiCCKIJIgiiCMBgFFAjiIA4cWAFhIMhqxAyMaQMIgACqDIaFBlEABWgABAJJQEkgKSAkEEUYCIMAwogo0IQROIEUZACOLAFDWDAZDWCgyGqKDIaAMgoGRWqAAIAJIAkoCSQEggUkBMBAmCNAjA1AMIjQJqCGAiiAKxCAVqgAzWgKzRWqzQZoaAMg0UACKASQCggAYECSQEggUkBhBAtRkwC1AYDUMEIGGIgTAYIkkCrLQAMtMihmtUUGaDQArLVZACkAEkABAAwEAkgJBgFJQCQQMaZINGMtQGoWY0BajMINIEQoICKqAQqoFFZrVZoCimsgmTQAFIoBJAAQAURgBJASEBIIEwGATAoDRBgNQxkg1DGTAalLJAoagIQBBAEELQFBAChIACAAIAJIAQQCSBEECQQRgIEggYYyQahZhgNFk6DSZ0gSzq0GgNAEIaCoqoBCrQCCQAEAglQCQBJIEgQRCAkECgQJCgNFkgYWSDRZQNILQaTK0CtABoBAggCSAIIAkgCBAIJAkkARQJJAUUCRQIhASkBSQIpAUkCSQIJAkkACQJBAgkCd74C7LcvpvBeec3Rx9PrLxyer6uTqtkm25807ygdCdgeXxXR/H5P9HuDzeJ6f2OvzJAz7h8vd8pnfn2br7t+/vN7Bcsm+0y/h6Nyb+mpAr2B5fE9P0fUdfmb6fi+5bN9r4/z4euX+0hH/2Q==");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+   /* border: 1px solid black;  */   
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+h2{
+    margin-left: 90px;
+    font-size: 60px;
+    color: blanchedalmond;
+    font-style:italic;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+a{
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    background-color: wheat;
+    color: rgb(15, 15, 8);
+    border-radius: 2px;
+}
+.one{
+    width: 10px;
+    height: 7px;
+     background-color: red;
+}
+.two{
+    width: 30px;
+    height: 9px;
+     background-color: red;
+}
+.three{
+    width: 60px;
+    height: 11px;
+     background-color: red;
+     margin-bottom: 20px;
+}
+/*.txt{
+    border: 1px solid green;
+    width: 40%;
+    height: 200px;
+    float: left;
+}                                                           //alternate code for section
+.img{
+    border: 1px solid pink;
+    width: 60%;
+    float: right;
+    
+} */
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+.txt{
+    margin-left: 100px;
+}
+button{
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 23px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: lavenderblush;
+}
+.mainimg{
+    border-radius: 15px;
+    opacity: 0.9;
+    -webkit-box-reflect:below 0px linear-gradient(transparent,transparent,#000);
+}
+.foot{
+    margin-left: 120px; 
+}
+.logo{
+    width: 90px;
+    border-radius: 40px;
+    margin: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+
+ img{
+    position: relative;
+    animation-name: bounce;
+    animation-duration: .7s;
+    animation-iteration-count: 3;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    0%{
+        margin-bottom: 0px;
+    }
+    25%{
+        margin-bottom: 20px;
+    }
+    50%{
+        margin-bottom: 35px;
+    }
+    75%{
+        margin-bottom: 20px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+} 
+.logo1:hover{
+    border-radius: 40px;
+    width: 120px;
+    
+}
+.logo2:hover{
+    border-radius: 40px;
+    width: 120px;
+}
+.logo3:hover{
+    border-radius: 40px;
+    width: 120px;
+}
+.logo4:hover{
+    border-radius: 40px;
+    width: 120px;
+}
+/**************************************media query for samsung************************************/
+@media (max-width: 480px) {
+    *{  
+        margin: -15px;
+        margin-top: 0px;
+        
+    }
+    body{
+        height: 670px;
+    }
+    h2{
+        padding-right: 40px;
+        font-size: 40px;
+        color: blanchedalmond;
+        font-style:italic;
+        margin-right: 20px;
+    }
+    .links{
+        margin-top: 80px;
+    }
+    a{
+        margin: 3px;
+        padding: 10px;
+        display: block;
+        margin-right: 120px;
+    }
+    section{
+        display: block;
+    }
+    .txt{
+        margin-left: 90px;   
+    }
+    h1{
+        font-size: 50px;
+    }
+    button{
+        width: 120px;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .mainimg{
+        width: 250px;
+        border-radius: 15px;
+        opacity: 0.9;
+        -webkit-box-reflect:below 0px linear-gradient(transparent,transparent,#000);
+        margin-top: 40px;
+        margin-left: 85px;
+    }
+    .logo{
+        width: 46px;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    .foot{
+        margin-left: 104px; 
+    }
+
+}
